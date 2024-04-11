@@ -1,3 +1,23 @@
+# Figma Link
+https://www.figma.com/file/HoAIJFy3FALnFBc2FcRe5j/GG-site?type=design&node-id=0%3A1&mode=design&t=y0mSX3CBaNYLtqWb-1
+
+# Framework
+https://getbootstrap.com/
+https://bulma.io/
+
+# Css Library Link
+https://animate.style/
+Animation is used on the index page. When you go to this page, my avatar image will rotate in.
+
+# Plugins and Fonts
+Google fonts - M PLUS 1 Code https://fonts.google.com/specimen/M+PLUS+1+Code
+
+# Images and content
+All the content and images are owned and created by me.
+
+# Basic Site map and information
+The home page, "works" and "contact" pages all work fine. I've put links to works in two places, one is where you can click on "works" in the navbar to see details of my work. The other is the "explore" button in the "My works" section of the home page.
+
 # Portfolio
 
 Welcome to my portfolio! Here, I showcase my various projects, including my work on an action game, as well as a website to display my portfolio itself.
