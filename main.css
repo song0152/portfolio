@@ -1,0 +1,45 @@
+body {
+    font-family: "M PLUS 1 Code", monospace;
+    color: rgb(57, 58, 57);
+}
+
+.nav a {
+    color: rgb(57, 58, 57);
+}
+
+.nav a:hover {
+    color: #892F85;
+} 
+
+.avatar {
+    margin-top: 2vw;
+}
+
+.work .title{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.work .content {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.work a {
+    display: flex;
+    justify-content: center;
+    background-color: #892F85;
+}
+
+.work a:hover {
+    background-color: #9c809b;
+}
+
+.footer {
+    margin: 6vw;
+}
+
+
+
