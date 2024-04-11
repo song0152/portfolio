@@ -2,11 +2,11 @@
 https://www.figma.com/file/HoAIJFy3FALnFBc2FcRe5j/GG-site?type=design&node-id=0%3A1&mode=design&t=y0mSX3CBaNYLtqWb-1
 
 # Framework
-https://getbootstrap.com/
+https://getbootstrap.com/  
 https://bulma.io/
 
 # Css Library Link
-https://animate.style/
+https://animate.style/  
 Animation is used on the index page. When you go to this page, my avatar image will rotate in.
 
 # Plugins and Fonts
