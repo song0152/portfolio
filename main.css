@@ -1,45 +1,74 @@
+/* Body styles */
 body {
+    /* Setting the font family to "M PLUS 1 Code" */
     font-family: "M PLUS 1 Code", monospace;
+    /* Setting the text color */
     color: rgb(57, 58, 57);
+    /* Setting the width of the body */
+    width: 1280px;
+    /* Centering the body horizontally */
+    margin: auto;
 }
 
+/* Navigation link styles */
 .nav a {
+    /* Setting the text color for navigation links */
     color: rgb(57, 58, 57);
 }
 
+/* Hover styles for navigation links */
 .nav a:hover {
+    /* Changing text color on hover */
     color: #892F85;
 } 
 
+/* Avatar section styles */
 .avatar {
+    /* Adding margin to the top of the avatar section */
     margin-top: 2vw;
 }
 
+/* Work section title styles */
 .work .title{
+    /* Adding margin to the top of the work section title */
     margin-top: 2vw;
+    /* Centering the title horizontally */
     display: flex;
     justify-content: center;
 }
 
+/* Work section content styles */
 .work .content {
+    /* Adding margin to the top of the work section content */
     margin-top: 2vw;
+    /* Centering the content horizontally */
     display: flex;
     justify-content: center;
 }
 
+/* Work section link styles */
 .work a {
+    /* Centering the links horizontally */
     display: flex;
     justify-content: center;
+    /* Setting background color for links */
     background-color: #892F85;
 }
 
+/* Hover styles for work section links */
 .work a:hover {
+    /* Changing background color on hover */
     background-color: #9c809b;
 }
 
+/* Footer styles */
 .footer {
+    /* Adding margin around the footer */
     margin: 6vw;
 }
 
-
-
+/* Footer paragraph styles */
+.footer p {
+    /* Setting font size for footer paragraph */
+    font-size: x-small;
+}

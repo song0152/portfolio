@@ -1,0 +1,42 @@
+/* Set the font family and color for the body */
+body {
+    font-family: "M PLUS 1 Code", monospace; /* Use M PLUS 1 Code font */
+    color: rgb(57, 58, 57); /* Set text color */
+    width: 1280px; /* Set the width of the body */
+    margin: auto; /* Center the body horizontally */
+}
+
+/* Style the navigation links */
+.nav a {
+    color: rgb(57, 58, 57); /* Set the default color for navigation links */
+}
+
+/* Style the navigation links on hover */
+.nav a:hover {
+    color: #892F85; /* Change the color of navigation links on hover */
+} 
+
+/* Center align the heading inside the card */
+.card h2 {
+    text-align: center; /* Center align the heading */
+}
+
+/* Center align the link inside the card */
+.card .link {
+    text-align: center; /* Center align the link */
+}
+
+/* Remove underline from the link inside the card */
+.card .link-opacity-75 {
+    text-decoration: none; /* Remove underline from the link */
+}
+
+/* Style the footer */
+.footer {
+    margin: 6vw; /* Set margin for the footer */
+}
+
+/* Style the paragraphs inside the footer */
+.footer p {
+    font-size: x-small; /* Set font size for paragraphs in the footer */
+}

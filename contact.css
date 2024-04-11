@@ -1,0 +1,38 @@
+/* Set the font family and color for the body */
+body {
+    font-family: "M PLUS 1 Code", monospace; /* Use M PLUS 1 Code font */
+    color: rgb(57, 58, 57); /* Set text color */
+    width: 1280px; /* Set the width of the body */
+    margin: auto; /* Center the body horizontally */
+}
+
+/* Style the navigation links */
+.nav a {
+    color: rgb(57, 58, 57); /* Set the default color for navigation links */
+}
+
+/* Style the navigation links on hover */
+.nav a:hover {
+    color: #892F85; /* Change the color of navigation links on hover */
+} 
+
+/* Style the contact form button */
+.contactform button {
+    background-color: #892F85;
+    color: aliceblue;
+}
+
+/* Style the contact form button on hover*/
+.contactform button:hover {
+    background-color: #8f788e;
+}
+
+/* Style the footer */
+.footer {
+    margin: 6vw; /* Set margin for the footer */
+}
+
+/* Style the paragraphs inside the footer */
+.footer p {
+    font-size: x-small; /* Set font size for paragraphs in the footer */
+}
