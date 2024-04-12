@@ -1,9 +1,37 @@
 /* Set the font family and color for the body */
 body {
-    font-family: "M PLUS 1 Code", monospace; /* Use M PLUS 1 Code font */
-    color: rgb(57, 58, 57); /* Set text color */
-    width: 1280px; /* Set the width of the body */
-    margin: auto; /* Center the body horizontally */
+    /* Setting the font family to "M PLUS 1 Code" */
+    font-family: "M PLUS 1 Code", monospace;
+    /* Setting the text color */
+    color: rgb(57, 58, 57);
+    /* Setting the background color */
+    background-color: #F9F9F9;
+}
+
+/* Media query for screens with a minimum width of 1280px */
+@media screen and (min-width: 1280px){
+    body {
+        /* Setting the width of the body */
+        width: 1280px;
+        /* Centering the body horizontally */
+        margin: auto;
+    }
+}
+
+/* Media query for screens with a minimum width of 760px */
+@media screen and (min-width: 760px) {
+    /* Hiding the phone navigation */
+    .phone-nav {
+        display: none;
+    }
+}
+
+/* Media query for screens with a maximum width of 760px */
+@media screen and (max-width: 760px) {
+    /* Hiding the regular navigation */
+    .nav {
+        display: none;
+    }
 }
 
 /* Style the navigation links */
@@ -15,6 +43,11 @@ body {
 .nav a:hover {
     color: #892F85; /* Change the color of navigation links on hover */
 } 
+
+/* Style the contact form margin */
+.contactform {
+    margin: 2vw;
+}
 
 /* Style the contact form button */
 .contactform button {

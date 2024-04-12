@@ -56,14 +56,48 @@
       </div>
     </div>
 
+    <!-- navbar for phone -->
+    <div class="phone-nav">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" alt="website logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title" id="offcanvasNavbarLabel">GAMESKY</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="works.html">Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- contact form section -->
     <div class="contactform">
-    <div class="field">
+    <!-- Name input field  -->
+      <div class="field">
         <label class="label" for="name">Name</label>
         <div class="control">
           <input class="input" type="text" placeholder="Text input" id="name">
         </div>
       </div>
       
+      <!-- Email input field  -->
       <div class="field">
         <label class="label" for="email">Email</label>
         <div class="control has-icons-left has-icons-right">
@@ -78,6 +112,7 @@
         <p class="help is-danger">This email is invalid</p>
       </div>
       
+      <!-- Message input field  -->
       <div class="field">
         <label class="label" for="message">Message</label>
         <div class="control">
@@ -85,6 +120,7 @@
         </div>
       </div>
       
+      <!-- Submit or cancel field  -->
       <div class="field is-grouped">
         <div class="control">
           <button class="button is-custom">Submit</button>
